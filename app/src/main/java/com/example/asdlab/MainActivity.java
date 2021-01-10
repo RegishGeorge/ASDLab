@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 TestTable testTable = new TestTable();
-                viewModel.update_test_table(testTable);
+                viewModel.delete_test_table(testTable);
             }
         });
     }
